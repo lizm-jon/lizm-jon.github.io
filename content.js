@@ -3,7 +3,8 @@ window.PROJECTS = [
   {
     id: 'nabench', year: '2026', name: 'NABench', visual: 'nabench',
     subtitle: 'Large-Scale Benchmarks of Nucleotide Foundation Models for Fitness Prediction',
-    badge: {en: 'Featured research', zh: '重点研究'},
+    badge: {en: 'arXiv', zh: 'arXiv'},
+    badgeHref: 'https://arxiv.org/abs/2511.02888',
     description: {
       en: 'A systematic evaluation of nucleotide foundation models for fitness prediction. Spanning 21 models, 47 assay datasets, and 539,000 mutants, NABench examines performance across zero-shot, cross-validation, few-shot, and transfer learning settings.',
       zh: '面向适应度预测，系统评测核苷酸基础模型。NABench 覆盖 21 个模型、47 个测定数据集和 53.9 万个突变体，考察 zero-shot、cross-validation、few-shot 与 transfer learning 四类设置下的模型表现。'
@@ -16,7 +17,7 @@ window.PROJECTS = [
         zh: ['Zero-shot：在不使用任务特定标注数据进行训练的条件下，考察预训练模型提供的预测信息。', 'Cross-validation：通过留出折评估监督预测表现。', 'Few-shot：考察仅有少量标注数据时的预测能力。', 'Transfer learning：考察已有知识在不同任务或数据集之间的迁移能力。']
       }},
       {title: {en: 'Why this work matters to me', zh: '我的研究兴趣'}, text: {en: 'NABench is the main focus of my research portfolio. I am interested in what these evaluations reveal about biological representations, data efficiency, and the limits of generalization.', zh: 'NABench 是我研究经历中的重点。我尤其关注这些评测能够揭示怎样的生物表征、数据效率，以及模型泛化能力的边界。'}}
-    ], links: []
+    ], links: [{label: {en: 'arXiv', zh: 'arXiv'}, href: 'https://arxiv.org/abs/2511.02888', icon: 'file-text'}]
   },
   {
     id: 'vcworld', year: '2026', name: 'VCWorld', visual: 'vcworld',
